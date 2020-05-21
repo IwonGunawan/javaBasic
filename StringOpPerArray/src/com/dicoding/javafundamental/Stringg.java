@@ -31,6 +31,7 @@ public class Stringg {
         String concat = dicodingString.concat(string1);
         System.out.println("concat = " + concat);
 
+        // looping
         for (int x=0; x < 5; x++) {
             for (int i=0; i <= x; i++) {
                 System.out.print("*");
@@ -38,9 +39,19 @@ public class Stringg {
             System.out.println();
         }
 
+        // get other method
+        int alo = hello();
+        System.out.println(alo);
+
 
         /* reference
         https://www.dicoding.com/academies/60/tutorials/1863?from=1803
         */
+    }
+
+    static Integer hello() {
+        int alo = 2034;
+
+        return alo;
     }
 }
