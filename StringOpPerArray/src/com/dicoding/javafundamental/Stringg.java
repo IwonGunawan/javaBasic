@@ -31,6 +31,13 @@ public class Stringg {
         String concat = dicodingString.concat(string1);
         System.out.println("concat = " + concat);
 
+        for (int x=0; x < 5; x++) {
+            for (int i=0; i <= x; i++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
 
         /* reference
         https://www.dicoding.com/academies/60/tutorials/1863?from=1803
