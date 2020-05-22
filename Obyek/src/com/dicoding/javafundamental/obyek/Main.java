@@ -13,5 +13,8 @@ public class Main {
 
         elang.cetakNama();
         gajah.cetakNama();
+
+        int alo = gajah.hello();
+        System.out.println(alo);
     }
 }

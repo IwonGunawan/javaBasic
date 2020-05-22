@@ -24,4 +24,9 @@ public class Hewan {
         System.out.println("Berat Hewan = " + berat + " Kg");
         System.out.println("Jumlah Kaki = " + jumlahKaki);
     }
+
+    public int hello() {
+        int alo = berat;
+        return alo;
+    }
 }
