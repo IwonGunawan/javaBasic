@@ -12,7 +12,7 @@ public class ListPlanet {
         heroes[1] = "seven"; // terbatas
 
         // arrayList
-        List<String> planet = new ArrayList<>();
+        List planet = new ArrayList<>();
         planet.add("mercury");
         planet.add("venus");
         planet.add("earth");
